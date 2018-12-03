@@ -4,7 +4,7 @@ import requests
 requests.packages.urllib3.disable_warnings()
 from PIL import Image
 
-from sele_lib import puzzle_tools
+import puzzle_tools
 
 findGap = puzzle_tools.FindGap()
 
